@@ -4,14 +4,14 @@ This repository contains my lab assignments and projects for the **DE0332: Image
 
 ---
 
-### 📂 Repository Structure
+### Repository Structure
 
 | Folder | Description | Status |
 | :--- | :--- | :--- |
 | **[Lab 1](./Lab1)** | Image Blending Modes (Soft Light, Hard Light, Difference, Lighten) | ✅ Completed |
 | **Lab 2** | *To be added* | ⏳ Pending |
 
-### 🛠️ Prerequisites
+### Prerequisites
 
 To run the scripts in these labs, you will need:
 * **Python 3.x**
