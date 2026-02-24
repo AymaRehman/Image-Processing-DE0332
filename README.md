@@ -8,7 +8,7 @@ This repository contains my lab assignments and projects for the **DE0332: Image
 
 | Folder | Description | Status |
 | :--- | :--- | :--- |
-| **[Lab 1](./Lab1)** | Image Blending Modes (Soft Light, Hard Light, Difference) | ✅ Completed |
+| **[Lab 1](./Lab1)** | Image Blending Modes (Soft Light, Hard Light, Difference, Lighten) | ✅ Completed |
 | **Lab 2** | *To be added* | ⏳ Pending |
 
 ### 🛠️ Prerequisites
