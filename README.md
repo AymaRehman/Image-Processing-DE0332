@@ -29,9 +29,6 @@ To run the scripts in these labs, you will need:
 3. **Run the program:**
    ```bash
    python main.py
-  
-    
-      
 
 ---
           
