@@ -8,6 +8,7 @@ __pycache__/
 # Results and output directories
 Results/
 Outputs/
+Output/
 
 # Ignore documents
 *.docx
