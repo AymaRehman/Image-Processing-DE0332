@@ -9,7 +9,7 @@ This repository contains my lab assignments and projects for the **DE0332: Image
 | Folder | Description | Status |
 | :--- | :--- | :--- |
 | **[Lab 1](./Lab1)** | Image Blending Modes (Soft Light, Hard Light, Difference, Lighten) | ✅ Completed |
-| **Lab 2** | *To be added* | ⏳ Pending |
+| **[Lab 2](./Lab2)** | Contrast Correction (Gamma Correction, Min-Max Histogram Stretch) | ✅ Completed |
 
 ### Prerequisites
 
@@ -17,6 +17,7 @@ To run the scripts in these labs, you will need:
 * **Python 3.x**
 * **OpenCV** (`pip install opencv-python`)
 * **NumPy** (`pip install numpy`)
+* **Matplotlib** (`pip install matplotlib`)
 
 ### Getting Started
 
