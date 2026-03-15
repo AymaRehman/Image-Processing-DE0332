@@ -10,6 +10,7 @@ This repository contains my lab assignments and projects for the **DE0332: Image
 | :--- | :--- | :--- |
 | **[Lab 1](./Lab1)** | Image Blending Modes (Soft Light, Hard Light, Difference, Lighten) | ✅ Completed |
 | **[Lab 2](./Lab2)** | Contrast Correction (Gamma Correction, Min-Max Histogram Stretch) | ✅ Completed |
+| **[Lab 3](./Lab3)** | Image Noise Removal (Uniform Noise, JPEG artifacts) | ⏳ Pending |
 
 ### Prerequisites
 
