@@ -10,8 +10,6 @@ from PIL import Image
 from src.degrade import reduce_contrast
 from src.metrics import evaluate
 
-# --- Enhancement algorithms (carried over from Lab 6) ---
-
 def gamma_correction(img: np.ndarray, gamma: float = 1.0) -> np.ndarray:
     img_float = img.astype(np.float32)
     corrected = np.zeros_like(img_float)
@@ -41,15 +39,13 @@ def enhance_parallel(img: np.ndarray, d: float = 0.5,
     combined = path_a * d + path_b * (1.0 - d)
     return np.clip(combined, 0, 255).astype(np.uint8)
 
-
-# --- Test images: (path, label, blend d, gamma) ---
 IMAGES = [
     ("Images/Image1.jpg", "Image 1", 0.5, 0.7),
     ("Images/Image2.jpg", "Image 2", 0.5, 0.7),
     ("Images/Image3.jpg", "Image 3", 0.5, 0.7),
 ]
 
-CONTRAST_FACTOR = 0.35  # degradation strength
+CONTRAST_FACTOR = 0.35 
 
 
 def fmt(metrics: dict) -> str:
