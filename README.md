@@ -14,6 +14,7 @@ This repository contains my lab assignments and projects for the **DE0332: Image
 | **[Lab 4](./Lab4)** | Edge-Based Segmentation (Canny Edge Detector, Sobel Operator) | ✅ Completed |
 | **[Lab 5](./Lab5)** | Region-based segmentation, thresholding, and clustering | ✅ Completed |
 | **[Lab 6](./Lab6)** | Contrast Enhancement - Parallel Combination | ✅ Completed |
+| **[Lab 7](./Lab7)** | Evaluation of Image Quality - Contrast Enhancement | ✅ Completed |
 
 
 ### Prerequisites
