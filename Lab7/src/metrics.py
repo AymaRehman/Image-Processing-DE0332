@@ -15,13 +15,11 @@ def mse(reference, test) -> float:
 
 def psnr(reference, test, max_val: float = 255.0) -> float:
     if mean_squared_error(reference, test) == 0:
-        return float("inf")  # identical images
+        return float("inf")  
     return float(peak_signal_noise_ratio(reference, test, data_range=max_val))
 
 
 def ssim(reference, test, max_val: float = 255.0) -> float:
-    # channel_axis=2 -> SSIM computed per RGB channel and averaged.
-    # scikit-image uses a sliding Gaussian window (windowed SSIM).
     return float(
         structural_similarity(reference, test, channel_axis=2, data_range=max_val)
     )
